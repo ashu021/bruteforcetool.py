@@ -5,9 +5,7 @@ from pip._vendor.distlib.compat import raw_input
 import time
 
 print("[+]..This is a bruteforcing tool")
-time.sleep(5)
-
-
+time.sleep(1)
 print("[+]..Some instructions before using the tool. ")
 time.sleep(2)
 print("[+]..first install tor and configure it before starting the attack")
@@ -38,7 +36,7 @@ def setupTOR(self):
     self.proxies = {'http':'socks5://localhost:9050','https':'socks5://localhost:9050'}
 
 checkTor = True
-print("[+].. tor is configured")
+#print("[+].. tor is configured")
 
 target_url = raw_input("enter the target website for bruteforcing: ")
 
